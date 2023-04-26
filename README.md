@@ -6,6 +6,10 @@ This repository contains some example code for ways to spice up your C# code wit
 
 This example shows how to use partial application to create a function that can be used to create other functions. This is a useful refactoring technique to reduce duplication in your code. In the example code I show how partial application is similar to the factory pattern but with less code and more flexibility.
 
+## FunctionComposition
+
+By using extension methods, you can define helper methods to compose functions together. This is useful for creating a pipeline of operations to be performed on a value. This concept can be extended to crazy lengths. Enjoy this example and see how far you can take it.
+
 ## HierarchicalTypes
 
 This example utilises inheritance to create a hierarchical type of payment methods. It then shows how you can use this to pattern match on the type to perform different operations based on the type of payment method.

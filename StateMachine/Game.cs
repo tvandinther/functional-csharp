@@ -1,6 +1,6 @@
 using System.Diagnostics;
 
-namespace SumTypesGame;
+namespace StateMachine;
 
 public class Game
 {

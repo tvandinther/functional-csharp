@@ -1,6 +1,6 @@
 using System.Diagnostics;
 
-namespace SumTypesGame;
+namespace StateMachine;
 
 internal static class Turn { 
     public static GameState Process(PlayerTurn turn) => turn switch

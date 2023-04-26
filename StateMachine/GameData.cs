@@ -1,6 +1,6 @@
 using System.Collections.Immutable;
 
-namespace SumTypesGame;
+namespace StateMachine;
 
 public readonly record struct GameData(Player Player1, Player Player2, IImmutableList<Round> Rounds)
 {

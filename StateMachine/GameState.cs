@@ -1,4 +1,4 @@
-namespace SumTypesGame;
+namespace StateMachine;
 
 /*
  * All legal game states are represented using a hierarchy of types.

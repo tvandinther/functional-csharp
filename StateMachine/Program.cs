@@ -1,5 +1,5 @@
 ﻿using System.Diagnostics;
-using SumTypesGame;
+using StateMachine;
 
 const int roundCount = 5;
 Console.WriteLine($"Starting a game with {roundCount} rounds.");

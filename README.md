@@ -2,6 +2,10 @@
 
 This repository contains some example code for ways to spice up your C# code with functional programming techniques.
 
+## PartialApplication
+
+This example shows how to use partial application to create a function that can be used to create other functions. This is a useful refactoring technique to reduce duplication in your code. In the example code I show how partial application is similar to the factory pattern but with less code and more flexibility.
+
 ## HierarchicalTypes
 
 This example utilises inheritance to create a hierarchical type of payment methods. It then shows how you can use this to pattern match on the type to perform different operations based on the type of payment method.

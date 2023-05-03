@@ -34,3 +34,9 @@ Sum types are best described as constructive disjunctions, where a type can be c
 In this example, hierarchical sum types are used to build an expressive state machine to model an arbitrary game with two players and several rounds, with each turn containing different phases.
 
 `GameState.cs` contains various data types to represent the different states of the game using hierarchy. State transitions are handled by a "plinko" of switch expressions using pattern matching to determine the next state based on the current state and the action taken by the player.
+
+## Combinators
+
+This example shows how to create and use combinators to build up complex validations from simple building blocks. It utilises boolean algebra and predicates to map a custom domain to boolean values for algebraic reduction. Combining booleans with only the boolean operations of `AND`, `OR`, and `NOT`, we can create complex validations that are easy to read and maintain. A predicate is a mapping from any type `T` to a boolean. This type of function is extremely powerful because it allows us to enter the world of boolean algebra from any type `T`.
+
+There is an implementation using the C# `Func` delegate to create a functional approach and an example using classes and interfaces for contrast. The functional approach is more concise and expressive.
